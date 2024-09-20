@@ -1,0 +1,1 @@
+file://%20select%20all%20poster%20elementsconst%20posters%20=%20document.queryselectorall('.poster');//%20Add%20click%20event%20listener%20to%20each%20posterposters.forEach(poster%20=%3E%20%7B%20%20%20%20poster.addEventListener('click',%20()%20=%3E%20%7B%20%20%20%20%20%20%20%20alert(%60You%20clicked%20on%20$%7Bposter.querySelector('p').innerText%7D%60);%20%20%20%20%7D);%7D);
